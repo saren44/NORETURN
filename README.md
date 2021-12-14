@@ -1,0 +1,2 @@
+# NORETURN
+NORETURN esolang
