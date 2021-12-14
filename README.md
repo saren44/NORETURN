@@ -18,6 +18,8 @@ That's all (comments might be added in the future)
 # Other info
 " ", "\t", "\n" are ignored in the code. However, logically, each command has to be separated by at least one space, newline or tab.  
 Check multiply_explained to get a better understanding of coding in noreturn.  
-To run your code, go into NORETURN directory and type "py (or whatever opens python) shell.py <relative_filepath>".  
-^Yes, I created a stupid interpreted programming language using a smart interpreted programming language. And also, you obviously need python to run this thing.  
+To run your code, go into NORETURN directory and type "python3 (or whatever opens python) shell.py <relative_filepath>".  
+^ This will obviously get improved. Work in progress.  
+^^ Yes, I created a stupid interpreted programming language using a smart interpreted programming language. And also, you obviously need python to run this thing.  
+To check if it all works, get into the directory with language code and type "python3 shell.py examples/helloworld.nr" 
 Good luck!
