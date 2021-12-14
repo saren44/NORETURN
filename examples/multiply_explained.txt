@@ -1,0 +1,14 @@
+MULTIPLY.NR EXPLAINED
+
+
+sp mv               # move pointer2 to arr[1]
+sp rd sp rd         # read numbers to be multiplied (a and b)
+ls
+    mv cp           # copy a into arr[2], arr[3], ..., arr[b + 2] (pointer2 moves)
+le
+mv                  # move pointer1 to arr[1]
+sp mv               # move pointer2 to an empty array spot
+ls                  # this loop runs b times
+    mv              # move pointer1
+    ls sp add sp le # loop (add 1 to arr[pointer2]) a times
+le                  # the language supports nested loops!!!
